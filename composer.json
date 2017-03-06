@@ -1,0 +1,25 @@
+{
+	"name": "weijianghu/yii2-payment",
+	"description": "payment system",
+	"keywords": ["yii2", "chenyongze", "payment"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+		"issues": "https://github.com/weijianghu/yii2-payment/issues",
+		"wiki": "https://github.com/weijianghu/yii2-payment/wiki",
+		"source": "https://github.com/weijianghu/yii2-payment"
+	},
+	"authors": [
+		{
+			"name": "weijianghu",
+			"email": "76112703@qq.com"
+		}
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "weijianghu/yii2-qrcode": "*"
+    },
+	"autoload": {
+		"psr-4": {"yii\\payment\\": ""}
+	}
+}
